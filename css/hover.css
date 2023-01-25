@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+.thumb_nail {
+    transition: all 0.3s
+}
+
+
+#inline .CLOPET-top .CLOPET_01 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/01.png);
+}
+
+#inline .CLOPET-top .CLOPET_02 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/02.png);
+}
+
+#inline .CLOPET-top .CLOPET_03 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/03.png);
+}
+
+#inline .CLOPET-top .CLOPET_04 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/04.png);
+}
+
+#inline .CLOPET-bottom .CLOPET_05 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/05.png);
+}
+
+#inline .CLOPET-bottom .CLOPET_06 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/06.png);
+}
+
+#inline .CLOPET-bottom .CLOPET_07 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/07.png);
+}
+
+#inline .CLOPET-bottom .CLOPET_08 .thumb_nail:hover {
+    background-image: url(../img/01.CLOSET/hover/08.png);
+}
+
+
+#inline .RP-top .RP_01 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/01.png);
+}
+
+#inline .RP-top .RP_02 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/02.png);
+}
+
+#inline .RP-top .RP_03 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/03.png);
+}
+
+#inline .RP-top .RP_04 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/04.png);
+}
+
+#inline .RP-bottom .RP_05 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/05.png);
+}
+
+#inline .RP-bottom .RP_06 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/06.png);
+}
+
+#inline .RP-bottom .RP_07 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/07.png);
+}
+
+#inline .RP-bottom .RP_08 .thumb_nail:hover {
+    background-image: url(../img/02.RECOMMENDED_PRODUCT/hover/08.png);
+}
+
+
+#inline .COS-top .COS_01 .thumb_nail:hover {
+    background-image: url(../img/05.COSTUME/hover/01.png);
+}
+
+#inline .COS-top .COS_02 .thumb_nail:hover {
+    background-image: url(../img/05.COSTUME/hover/02.png);
+}
+
+#inline .COS-top .COS_03 .thumb_nail:hover {
+    background-image: url(../img/05.COSTUME/hover/03.png);
+}
+
+#inline .COS-bottom .COS_04 .thumb_nail:hover {
+    background-image: url(../img/05.COSTUME/hover/04.png);
+}
+
+#inline .COS-bottom .COS_05 .thumb_nail:hover {
+    background-image: url(../img/05.COSTUME/hover/05.png);
+}
+
+#inline .COS-bottom .COS_06 .thumb_nail:hover {
+    background-image: url(../img/05.COSTUME/hover/06.png);
+}
+
+
+#wrap .FLS-product .FLSP_01 .thumb_nail:hover {
+    background-image: url(../img/08.FAMILY_LOOK_02/hover/01.png);
+}
+
+#wrap .FLS-product .FLSP_02 .thumb_nail:hover {
+    background-image: url(../img/08.FAMILY_LOOK_02/hover/02.png);
+}
+
+#wrap .FLS-product .FLSP_03 .thumb_nail:hover {
+    background-image: url(../img/08.FAMILY_LOOK_02/hover/03.png);
+}
+
+#wrap .FLS-product .FLSP_04 .thumb_nail:hover {
+    background-image: url(../img/08.FAMILY_LOOK_02/hover/04.png);
+}
+
+
+
+
+
+
+/* nav .left .hover01 {
+    display: none;
+    background-color: white;
+    color: gray;
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
+    height: 100px;
+} */
+
+nav .left .nav-bold {
+    font-family: 'GmarketSansMedium';
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+   
+}
+
+
+
+header nav {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 90px;
+
+  
+
+}
+
+
+header nav li {
+    float: left;
+    position: relative;
+  
+}
+
+.sub-m {
+    margin-top: 10px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all 0.5s;
+    background-color: white;
+    color: rgb(54, 54, 54);
+    
+}
+
+.sub-m a {
+    width: 150px;
+    margin-top: 13px;
+    display: block;
+}
+
+
+ul:hover .sub-m {
+    height: 150px; 
+}
+
+nav .left {
+    z-index: 100;
+    position: relative;
+  
+}
+
+.sub-m a:hover{
+   color: #24a47c;
+}
+
+
+
+
+.nav-bg{
+    z-index: 90;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    height: 0;
+    top: 136px;
+    width: 100%;
+    box-shadow: 10px 10px 10px rgba(43, 43, 43, 0.1);
+    transition: all 0.5s;
+  
+   
+}
+
+
+ ul:hover ~ .nav-bg{
+    position: fixed;
+    height: 151px;
+
+}
+
+
+
+
+/* 하트 클릭 시 변경 */
+
+input#heart1:checked ~ label i{color:red;}
+input#heart2:checked ~ label i{color:red;}
+input#heart3:checked ~ label i{color:red;}
+input#heart4:checked ~ label i{color:red;}
+input#heart5:checked ~ label i{color:red;}
+input#heart6:checked ~ label i{color:red;}
+input#heart7:checked ~ label i{color:red;}
+input#heart8:checked ~ label i{color:red;}
+
+
+
+

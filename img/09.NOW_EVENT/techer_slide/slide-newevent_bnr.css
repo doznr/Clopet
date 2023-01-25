@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+
+
+#section04 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    /* overflow: hidden; */
+    border: 1PX SOLID red;
+
+}
+
+
+
+input {
+    display: none;
+}
+
+#section04 .slide-box {
+    width: 250%;
+    position: relative;
+    top: 0;
+    left: -73.5%;
+    transition: all 0.5s;
+}
+
+/* 버튼 */
+.slide-btn {
+    width: 50%;
+    border: 1px solid red;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-btn>div {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-box img {
+    opacity: 0.5;
+    filter: saturate(10%);
+}
+
+.slide-btn>div {
+    display: none;
+}
+
+/* 체크되었을때 */
+#E-slide-1:checked~.slide-box {
+    left: -24%;
+}
+
+#E-slide-2:checked~.slide-box {
+    left: -73.5%;
+}
+
+#E-slide-3:checked~.slide-box {
+    left: -123%;
+}
+
+#E-slide-1:checked~.slide-box img:nth-child(2) {
+    opacity: 1;
+    filter: saturate(100%);
+}
+
+#E-slide-2:checked~.slide-box img:nth-child(3) {
+    opacity: 1;
+    filter: saturate(100%);
+}
+
+#E-slide-3:checked~.slide-box img:nth-child(4) {
+    opacity: 1;
+    filter: saturate(100%);
+}
+
+
+#E-slide-1:checked~.slide-btn .slidebtn01 {
+    display: flex;
+}
+
+#E-slide-2:checked~.slide-btn .slidebtn02 {
+    display: flex;
+}
+
+#E-slide-3:checked~.slide-btn .slidebtn03 {
+    display: flex;
+}

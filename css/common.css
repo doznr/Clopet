@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+*{padding: 0;
+    margin: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+table{border-collapse: collapse;}
+hr{border: 0; clear: both;}
+
+aside{
+    border: 1px solid red;
+    float: right;
+    width: 50px;
+    height: 100px;
+}
+
+
+aside img{
+    border: 1px solid red;
+   
+}
+
+
+
+
